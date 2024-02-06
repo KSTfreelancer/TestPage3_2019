@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:aquamarine;
+    width: 100%;
+    background-size:cover;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    color: aqua;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    font-family: Algerian;
+    text-shadow: 2px 5px 5px red;
+}
+.p {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: cadetblue;
+    padding-left: 250px;
+}
+.menu ul{
+    background-color: cadetblue;
+    text-align:left;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    
+   
+    
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.menu ul li a i{
+    color: blue;
+    padding-left: 10px;
+}
+.menu ul li img{
+    float: right;
+    width: 100px;
+    height: 40px;
+}
+.menu ul li:hover{
+    background-color: aqua;
+    
+}
+.logo {
+    height: 90px;
+    width: 280px;
+    float: right;
+    line-height: -150px;
+    background-color: cadetblue;
+   }
+.logo img{
+    width: 250px;
+    height: 100px;
+    line-height: -50px;
+    float: right;
+}
+img{
+    width: 100%;
+    height: 600px;
+}
+ #m{
+    width: 300px;
+    height: 50px;
+    border-radius:30px 30px 30px 30px ;
+    background-color: rgba(0,0,0,.6);
+     border: 2px solid red;
+    color:white;
+}
+#m:hover{
+    width: 300px;
+    height: 50px;
+    border-radius:30px 30px 30px 30px ;
+    background-color: rgba(255, 255, 255,.6);
+     border: 2px solid green;
+    color:black;
+}
+.our{
+   padding-left: 40%;
+}
+.img img{
+    padding-top: 10px;
+    width: 35%;
+    height: 300px;
+    float: left;
+    display: inline-block;
+}
+.pera p{
+    width:65%;
+    height: 300px;
+    float: right;
+    font-family:Californian FB;
+    word-spacing: 7px;
+    text-align: justify;
+    
+}
+ table,tr,th,td{
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+
+.tb table{
+    width: 100%;
+   margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tb table th{
+    background-color: rgba(66, 103, 178.5);
+    height: 50px;
+    font-family: Colonna MT;
+    font-size: 25px;
+    color:chartreuse;
+}
+.tb table td{
+    background-color: grey;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    font-family: MV Boli;
+    color: black;
+}
+.te table{
+    width: 100%;
+   margin-top: 20px;
+    margin-bottom: 20px;
+}
+.te table th{
+    background-color: rgba(66, 103, 178.5);
+    height: 50px;
+    font-size: 25px;
+    color:chartreuse;
+}
+.te table td{
+    background-color: grey;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    color: black;
+}
+/*kghkudrfhgouhsrgoi*/
+.box .login{
+    text-align: center;
+    color: white;
+    font-family:Bauhaus 93;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.box {
+    
+    width:400px;
+    height:350px;
+    background-color:rgb(0,0,0,.4);
+    margin-top:30px;
+    margin-left: 50px;
+   border-radius: 0.625rem;
+    display: inline-block;
+    
+}
+.box label{
+    color: white;
+   
+    
+}
+.box .input input{
+    width:330px;
+    height: 25px;
+   border-radius:15px;
+    font-size: 18px;
+    border: none;
+    
+}
+.box .input{
+   line-height: 35px;
+    margin-left: 30px;
+}
+.option select{
+    width: 330px;
+    height: 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 30px;
+}
+
+.box .option{
+    line-height: 50px;
+    border-radius:15px;
+    
+}
+.box .option label{
+    margin-left: 30px;
+}
+.box .sing{
+    line-height: 50px;
+    border-radius:15px;
+    
+}
+.box .sing input{
+    width:100px;
+    height: 30px;
+    color: white;
+    background-color: aqua;
+    border-radius:15px;
+    margin-left: 30px;
+}
+.maps{
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}

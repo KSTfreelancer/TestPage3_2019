@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to left,rgba(247, 131, 37.8),rgba(234, 42, 112,.8));
+    
+}
+.top_img{
+    background-image: url(media/03_bullets.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment:fixed;
+}
+.top_img marquee{
+    font-family: Gabriola;
+    font-size: 25px;
+}
+.center{
+    width: 100%;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -50%;
+    margin-top: -100px;
+    text-align: center;
+}
+.center:hover{
+    background-color: rgba(0,0,0,.2);
+    color: white;
+}
+.center h2{
+    margin-top: 60px;
+}
+.logo{
+    width: 15%;
+    height: 50px; 
+    float: left;
+    background-color:rgb(247, 131, 37);
+    position: sticky;
+    top:0px;
+}
+
+.logo img{
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    margin-top:  -35px;
+    
+}
+.menu{  
+    position: sticky;
+    top:0px;
+    }
+.menu ul{
+    background-color: rgb(247, 131, 37);
+    text-align:center;
+    float: right;
+    width: 85%;
+    height: 50px;
+    line-height: 50px;
+  
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.menu ul li a i{
+    color: blue;
+    padding-left: 10px;
+}
+.menu ul li img{
+    float: left;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+}
+.menu ul li:hover{
+    background-color: rgb(191, 79, 57);
+    
+}
+.sarce input{
+    width:40%;
+    height:40px;
+    border-radius:25px;
+    padding-left: 30px;
+    font-size:18px;
+    font-family: Calisto MT;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    border-color: transparent;
+}
+.sarce a i{
+   color: red;
+   padding-left: 5px;
+    padding-top: 10px;
+}
+#jpeg{
+    
+    float: right;
+    margin: 10px ;
+}
+#pera{
+    width: 50%;
+    height: 350px;
+    margin-left: 10px;
+}
+.one{
+    height: 350px;
+    width: 100%;
+}
+#pera p{
+    text-align:justify;
+    font-family: Arial Narrow;
+    margin: 0px 10px 10px 10px;
+    font-size: 20px;
+}
+#pera h3{
+    margin: 10px 0px 0px 10px;
+    text-decoration: underline;
+}
+.full .left{
+    width: 30%;
+    height: 300px;
+    border: 1px solid blue;
+    float: left;
+    display: inline-block;
+    background-image: url(media/screencapture-file-F-web-design-bdtask-Day-13-project-1-index-html-2020-03-22-17_09_13.png);
+    background-size: cover;
+    background-position: left top;
+    color: red;
+}
+.full .three:hover{
+    background-position: left bottom;
+    transition: 3s;
+    color: transparent;
+}
+.full .centerto{
+    width: 30%;
+    height: 300px;
+    border: 1px solid blue;
+    margin-left: 5%;
+    display: inline-block;
+    background-image: url(media/2screencapture-file-F-web-design-bdtask-Day-16-project-2-index-html-2020-03-22-17_24_02.png);
+    background-size: cover;
+    background-position: left top;
+    color: red;
+}
+.full .rightto{
+    width: 30%;
+    height: 300px;
+    border: 1px solid blue;
+    display: inline-block;
+    float: right;
+    background-image: url(media/Carsive-Creative-agency-PSD-web-template-Download3.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+.tocolor{
+    width: 100%;
+    height: 440px;
+    background-image: linear-gradient(to left,rgb(14, 228, 239),rgb(252, 7, 121));
+    
+}
+.upor{
+     width: 100%;
+    height: 200px; 
+    text-align: center;
+}
+#j{
+    text-decoration: underline;
+}
+.bam{
+   float: left;
+   margin-left: 1.5%;
+}
+.maj{
+  float: left;
+}
+.dan{
+   float: left;
+}
+.tocolor:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.to{
+   width: 30%;
+    height: 200px;
+    background-image:  linear-gradient(to top ,rgba(14, 228, 239,.3),rgba(252, 7, 121,.8));
+    padding: 15px;
+}
+.to #ic{
+    color: aqua;margin: 10px;
+    
+}
+.love{
+    width: 20%;
+    height: 350px;
+    background-color: black;
+    padding: 10px;
+}
+.st{
+   float: left;
+    margin-left: 5%;
+}
+.nd{
+   float: left;
+}
+.rd{
+    float: left;
+}
+.th{
+    float: left;
+}
+.fores{
+    width: 100%;
+    height: 600px;
+    background-color:rgb(24, 25, 21);
+    color: white;
+    text-align: center;
+}
+#ico{
+    margin-top: 10px;
+    color: aqua;
+}
+#ite{
+    font-size: 18px;
+    font-family: Agency FB;
+}
+.love:hover{
+    height: 370px;
+    width:25%;
+    border: 1px solid white;
+    border-bottom: 7px solid red;
+    transition: .5s;
+    font-size: 25px;
+}
+.love:hover i{
+     transform: rotate(360deg);
+    transition: .5s;
+}
+.img{
+    height: 150px;
+    width: 100%;
+    background-image: url(media/hhhh.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+}
+.bottom{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.scrol{
+    height: 50px;
+    width: 40px;
+    background-color: rgba(255,0,0,.4);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px 50px 0 0 ;
+    
+}
+.scrol:hover{
+    background-color: red;
+}
+.scrol b a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+#cent{
+    font-size: 30px;
+    font-family:Forte;
+    line-height: 150px;
+    text-align: center;
+}
